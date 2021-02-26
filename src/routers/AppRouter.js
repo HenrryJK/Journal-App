@@ -3,8 +3,7 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link,
-    Redirect
+    Link
   } from 'react-router-dom';
 import { JournalScreen } from '../components/journal/JournalScreen';
 
@@ -26,7 +25,6 @@ export const AppRouter = () => {
                 component = {JournalScreen}
                 />
 
-                <Redirect to="/auth/login"/>
                </Switch>
            </div>
         </Router>

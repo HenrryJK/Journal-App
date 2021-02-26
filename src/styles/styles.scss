@@ -1,3 +1,5 @@
-html,
-body {
-}
+@import "./base/settings";
+@import "./base/base";
+
+// componentes
+@import "/src/components/auth";
