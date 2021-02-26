@@ -1,6 +1,6 @@
 import React from 'react'
 import { Sidebar } from './components/journal/Sidebar'
-import { AppRouter } from './routers/AppRouter'
+
 
 export const JournalApp = () => {
     return (
