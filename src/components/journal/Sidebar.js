@@ -25,7 +25,5 @@ export const Sidebar = () => {
 
             <JournalEntries/>
            </aside>
-
-   
     )
 }
